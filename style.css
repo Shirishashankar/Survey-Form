@@ -1,0 +1,112 @@
+/* body */
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #CADCFC; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.label {
+    font-weight: bold; 
+}
+/* Survey Form */
+.survey-form {
+    display: flex; 
+    flex-direction: column; 
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 900px; 
+    width: 100%; 
+    padding: 2rem; 
+}
+
+h1 {
+    margin-bottom: 1rem; 
+    color: #333; 
+    text-align: center; 
+}
+
+p {
+    margin-bottom: 1.5rem; 
+    color: #666; 
+    text-align: center; 
+}
+
+.form-group {
+    margin-bottom: 1rem; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+label {
+    margin-bottom: 0.5rem; 
+    color: #333; 
+}
+
+.input, select, textarea {
+    padding: 0.5rem; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 1rem; 
+    width: 100%;
+}
+
+.input-email {
+    padding: 0.5rem; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%; 
+    height: 20px;
+}
+/* Botton */
+button {
+    padding: 0.75rem; 
+    border: none; 
+    border-radius: 4px; 
+    background-color: #005bf9; 
+    color: white; 
+    font-size: 1rem; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #2371f8; 
+}
+
+.flex-parent-element {
+    display: flex; 
+    width: 100%; 
+}
+
+.flex-child-element {
+    flex: 1; 
+    margin: 10px; 
+}
+
+.flex-child-element:first-child {
+    margin-right: 20px; 
+}
+
+/* Age radio buttons container */
+.radio-button {
+    position: relative; 
+    padding: 10px; 
+    border: 1px solid #888383; 
+    border-radius: 8px; 
+    margin-bottom: 10px; 
+}
+
+.age-label {
+    position: absolute; 
+    top: -12px; 
+    left: 20px;
+    background-color: #fff; 
+    padding: 0 5px; 
+}
+
+
+
+
